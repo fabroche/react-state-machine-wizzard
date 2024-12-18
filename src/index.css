@@ -46,6 +46,21 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin: 24px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+
 button:hover {
   border-color: #646cff;
 }
